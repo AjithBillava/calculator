@@ -27,7 +27,7 @@ export const CalculatorApp = () =>{
     }
 
     return (
-            <form onSubmit={(e)=>e.preventDefault()} className="otrigin-center transform border border-primaryColor-dark translate-y-1/2 md:text-4xl flex flex-col font-mono " >
+            <form onSubmit={(e)=>e.preventDefault()} className="origin-center transform border border-primaryColor-dark translate-y-1/4 md:text-4xl flex flex-col font-mono " >
                 
                 <input ref={inputFocused} 
                  onChange={(e)=>setResult(e.target.value)}
